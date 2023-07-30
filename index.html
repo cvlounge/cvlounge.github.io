@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <title>Muk Cider & Vape Lounge - Beer Menu</title>
+    <style>
+        /* New color scheme */
+        :root {
+            --primary-color: #880000; /* Deep red */
+            --secondary-color: #D4AF37; /* Gold */
+            --background-color: #e3e1e1; /* Light gray */
+            --text-color: #333333; /* Dark gray */
+        }
+
+        /* All other styles with the new color scheme */
+        body {
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: var(--background-color);
+        }
+        header {
+            background-color: var(--primary-color);
+            color: #fff;
+            padding: 10px;
+            font-size: 24px;
+            letter-spacing: 2px;
+        }
+        h1 {
+            margin: 0;
+            font-size: 48px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        section {
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        .cider-item {
+            margin: 20px;
+            padding: 15px;
+            background-color: #fff;
+            border: 1px solid var(--primary-color);
+            border-radius: 10px;
+            max-width: 300px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+        .cider-item:hover {
+            transform: scale(1.05);
+        }
+        .cider-item h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: var(--primary-color);
+        }
+        .cider-item p {
+            font-size: 16px;
+            color: var(--text-color);
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: var(--secondary-color);
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+            margin-top: 20px;
+            transition: background-color 0.2s;
+        }
+        .cta-button:hover {
+            background-color: #B08D29; /* Darker shade of gold on hover */
+        }
+        .address {
+            margin-top: 20px;
+            font-size: 16px;
+            color: var(--text-color);
+        }
+        .specialties {
+            margin-top: 30px;
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: left;
+            /* Add margin at the bottom to create space between the specialties section and the footer */
+            margin-bottom: 40px;
+        }
+        footer {
+            background-color: var(--secondary-color);
+            color: #fff;
+            padding: 10px;
+        }
+        footer p {
+            margin: 0;
+            font-size: 14px;
+        }
+        @media (max-width: 600px) {
+            .specialties {
+                padding: 20px;
+            }
+        }
+    </style>
+    <!-- Link to Roboto font from Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+</head>
+<body>
+    <header>
+        <h1>Muk Cider & Vape Lounge</h1>
+        <p>Drink Menu</p>
+    </header>
+
+    <section>
+        <div class="cider-item">
+            <h2>Classic Apple Cider</h2>
+            <p>A crisp and refreshing cider with the perfect balance of sweet and tart apple flavors.</p>
+        </div>
+
+        <div class="cider-item">
+            <h2>Tropical Fusion</h2>
+            <p>This bold cider features a blend of tropical fruits and a touch of cinnamon for a unique taste experience.</p>
+        </div>
+
+        <div class="cider-item">
+            <h2>English Heritage</h2>
+            <p>Description: An award-winning traditional English-style cider with a rich apple flavor and subtle hints of oak.</p>
+        </div>
+
+        <div class="cider-item">
+            <h2>Raspberry Lemonade Cider</h2>
+            <p>A delightful blend of raspberry and lemonade flavors, creating a sweet and tangy cider.</p>
+        </div>
+
+        <div class="cider-item">
+            <h2>Honey Bourbon Apple</h2>
+            <p>This cider is infused with smooth bourbon and honey, offering a rich and warm flavor profile.</p>
+        </div>
+
+        <div class="cider-item">
+            <h2>Mango Tango</h2>
+            <p>Description: Indulge in the tropical delight of ripe mangoes in this refreshing and exotic cider.</p>
+        </div>
+
+        <div class="cider-item">
+            <h2>Spiced Pumpkin</h2>
+            <p>Embrace the fall season with the warm and spicy taste of pumpkin in this seasonal cider.</p>
+        </div>
+
+    </section>
+
+    <div class="address">
+        <p>12502 Mukilteo Speedway Ste 106, Mukilteo, WA 98275</p>
+        <p>(425) 263-9288 | shop@cvlounge.com</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Muk Cider & Vape Lounge. All rights reserved.</p>
+    </footer>
+</body>
+</html>
